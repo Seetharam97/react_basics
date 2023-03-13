@@ -1,0 +1,39 @@
+html{
+    font-family: sans-serif;
+    
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th{
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(64, 97, 245);
+    color: aliceblue;
+}
+
+tr:nth-child(even) td{
+    background-color: rgb(221, 220, 220);
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(245, 245, 245);
+}
+
+caption{
+    padding: 10px;
+}
+
+tr.highlight td{
+    background-color: #a6a8bd;
+}
